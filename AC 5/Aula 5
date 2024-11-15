@@ -1,0 +1,30 @@
+const meuObjeto = {
+  nome: 'Pedro',
+  idade: 19
+}
+
+const preco = 40;
+
+console.log(preco > 40 ? "livro caro" : "livro barato")
+
+meuObjeto.telefone = '999981199';
+
+const func2 = function (a, b) {
+  return a * b;
+}
+
+console.log(func2(2, 3));
+
+const func3 = (entrada) => {
+  return entrada + " é bonito";
+}
+
+const minha_lista = ["oi", 1, "tchau", 2, [1, 2, 3]];
+
+const func4 = function (a, b) {
+  return console.log("O elemento " + a + " é " + typeof (a) + " e é o " + b + "°" + " elemento.");
+}
+
+minha_lista.forEach((elemento, indice) => func4(elemento, indice));
+
+console.log(`teste string ${minha_lista}`);
